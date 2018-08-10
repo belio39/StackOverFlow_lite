@@ -5,74 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>StackOverFlow-lite</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="navbar">
     <ul class="navbar">
       <li><a href="dashboard.html">Dashboard</a></li>
-      <li><a href="question.html">View Questions</a></li>
-      <li style="float:right"><a class="active" href="signin.html">Sign Out</a></li>
-      <li style="float:right"><a class="active" href="#signin.html">Sign In</a></li>
+      <li style="float:right"><a href="signin.html">Sign Out</a></li>
     </ul>
   </nav>
-  <table>
-    <tr>
-      <th>Questions</th>
-      <th>Date</th>
-      <th>Owner</th>
-      <th>View</th>
-    </tr>
-    <tr>
-      <td>What is Computer Science?</td>
-      <td>23th Jan 2018</td>
-      <td>Johh</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>What is EPIC values standands for?</td>
-      <td>14th Dec 2017 </td>
-      <td>Dennis</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>Define Programming</td>
-      <td>24th Dec 2016</td>
-      <td>Joe</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>Define TDD</td>
-      <td>29th Feb 2015</td>
-      <td>Philip</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>Benefit of using slack</td>
-      <td>18th Nov 2014</td>
-      <td>kamau</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>Benefit of using slack</td>
-      <td>18th Nov 2014</td>
-      <td>sam</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-    <tr>
-      <td>Benefit of using slack</td>
-      <td>18th Nov 2014</td>
-      <td>zam</td>
-      <td><a href="view.html">View</a></td>
-    </tr>
-  </table>
-  </div>
-  <div>
-      <a href="#" class="previous">&laquo; Previous</a>
-      <a href="#" class="next">Next &raquo;</a>
-  </div>
-<footer>
-  <p> Dennis belio rotich </p>
-</footer>
-</body>
-</html>
+  <main>
+    <h2 style="text-align: center">Post a Question</h2>
+    <div class="card" style="align-content: center">
+      <textarea name="answer" id="answer" placeholder="Type your question..." style="height: 150px"></textarea>
+      <input type="submit" value="Post Question">
+    </div>
+  </main>
+  </body>
+  </html>

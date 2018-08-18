@@ -19,4 +19,6 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
   
 # Installation
 > Downlaod / clone the project to your local computer by:
+> Download the zip file of this repository.
+> Unzip it and navigate into the StackOverflow-lite directory.
   

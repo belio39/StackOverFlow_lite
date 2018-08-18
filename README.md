@@ -15,4 +15,8 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 
 # Prerequisities
-  - Python 3.6 or a later version
+  - Python 3.6
+  
+# Installation
+> Downlaod / clone the project to your local computer by:
+  

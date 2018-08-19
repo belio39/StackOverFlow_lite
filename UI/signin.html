@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="bg-image"></div>
   <nav class="navbar">
     <ul class="navbar">
       <li><a href="index.html">Home</a></li>
@@ -17,13 +18,12 @@
     </ul>
 
   </nav>
-  
+  <div class="bg-image"></div>
 <div id="main">
   <center><h1>StackOverFlow-lite</h1></center>
 </div>
-
-<form action="dashboard.html"style="max-width:500px;margin:auto">
-
+<div>
+<form action="dashboard.html"style="max-width:500px;margin:auto" style="border:1px solid #ccc">
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -31,15 +31,11 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign In</button>
+    </div>
   </div>
-
 </form>
-<footer>
-  <p> Dennis belio rotich </p>
-</footer>
+</div>
 </body>
 </html>

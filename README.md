@@ -38,14 +38,14 @@ Install package requirements to your environment
 Create a.env file in your StackOverflow-lite root directory and add:
 
 >$ venv/bin/activate
-$ export FLASK_APP="run.py"
-$ export SECRET="any-character-or-STRING-YOU-PREFER"
-$ export APP_SETTINGS="development"
+>$ export FLASK_APP="run.py"
+>$ export SECRET="any-character-or-STRING-YOU-PREFER"
+>$ export APP_SETTINGS="development"
 
 # Testing
 To set up testing environment
 >$ pip install nose
-$ pip install coverage
+>$ pip install coverage
 
 # Testing API endpoints
 <table> 

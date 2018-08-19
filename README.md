@@ -28,7 +28,7 @@ Create a virtual environment
 
 Activate the environment
 
->  $ venv/bin/activate 
+> $ venv/bin/activate 
 
 # Dependencies
 Install package requirements to your environment
@@ -37,15 +37,15 @@ Install package requirements to your environment
 # Env
 Create a.env file in your StackOverflow-lite root directory and add:
 
->$ venv/bin/activate
->$ export FLASK_APP="run.py"
->$ export SECRET="any-character-or-STRING-YOU-PREFER"
->$ export APP_SETTINGS="development"
+- >$ venv/bin/activate
+- >$ export FLASK_APP="run.py"
+- >$ export SECRET="any-character-or-STRING-YOU-PREFER"
+- >$ export APP_SETTINGS="development"
 
 # Testing
 To set up testing environment
->$ pip install nose
->$ pip install coverage
+- >$ pip install nose
+- >$ pip install coverage
 
 # Testing API endpoints
 <table> 

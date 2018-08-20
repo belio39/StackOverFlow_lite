@@ -5,6 +5,7 @@ class Config(object):
     DEBUG = False
     CSRF_ENABLED = True
     SECRET = os.getenv('SECRET')
+    DATABASE_NAME = "stack_over_flow"
 
 class DevelopmentConfig(Config):
     """Configurations for Development."""
@@ -14,6 +15,7 @@ class TestingConfig(Config):
     """Configurations for Testing."""
     TESTING = True
     DEBUG = True
+    DATABASE_NAME = "stack_over_flow_tests"
 
 class StagingConfig(Config):
     """Configurations for Staging."""
